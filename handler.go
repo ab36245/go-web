@@ -3,7 +3,7 @@ package web
 import (
 	"net/http"
 
-	"github.com/aivoicesystems/aivoice/common/websocket"
+	"github.com/ab36245/go-websocket"
 )
 
 type requestFunc = func(http.ResponseWriter, *http.Request)
